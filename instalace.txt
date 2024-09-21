@@ -1,0 +1,26 @@
+pip install virtualenv
+python -m virtualenv env
+
+env\Scripts\Activate   (aktivuju env prostredi, deactivate zase vypnu)
+
+pip install pytest
+
+at je slozka 
+project
+    calc
+    __init__.py
+    calc.py
+    tests
+    __init__.py
+    test_calc.py
+
+pytest (spustit testy ve slozce)
+
+pip install requests
+
+///// instalace playwright
+pip install pytest-playwright playwright
+playwright install
+
+/// debugovani 
+set PWDEBUG=1 && pytest
